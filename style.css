@@ -81,6 +81,10 @@ body {
 	background-color: rgba(255,253,31,0.9);
 	color: rgb(11, 64, 103);
 }
+.btn-w:hover {
+	outline:3px solid rgb(255,253,31);
+	color: rgb(11, 64, 103);
+}
 .about{
 	margin: auto;
 	width: 60%;
@@ -113,25 +117,38 @@ body {
 	font-size: 14px;
 	max-width: 400px;
 	min-width: 300px;
+	color: rgb(130,130,130);
 }
 .works {
   padding-top: 180px;
   font-family: "NeoTech";
-	margin: auto;
 	position: relative;
 	height: auto;
 	z-index: 998;
 	text-align: center;
 	top:0;
 }
-.works ul {
-padding:0;
-margin: 0 10;
-}
 .works li{
-padding: 0px 10px;
+margin: 10px 10px;
 display: inline-block;
 }
-.works a{
-	text-decoration: none;
+.week-1{
+	background: url("background.jpg") no-repeat center center;
+	background-size: cover;
+	height: 120px;
+	padding-top: 200px;
+	font-family: "Neotech";
+	position: relative;
+	color: #fff;
+}
+.week-1 h1{
+	padding-top: 30px;
+	font-size: 30px;
+	text-align:center;
+	color: #fff;
+}
+.week-1 p{
+	padding-top:100px;
+	color: rgb(130,130,130);
+	font-size:16px;
 }
